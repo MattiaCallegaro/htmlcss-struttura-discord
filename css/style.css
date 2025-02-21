@@ -30,8 +30,32 @@ li{
 
 .header-logo{
     width: 20%;
+    padding: 2px;
 }
 
 .header-link{
-    text-align: center;
+    text-align:center;
+}
+
+.header-login{
+    text-align: right;
+}
+
+.bg-blue{
+    background-color: blue;
+    height: 200px;
+}
+
+.content{
+    height: 200px;
+    border: 3px dashed;
+}
+.rettangolo-1{
+    width: 60%;
+    margin: auto;
+}
+
+.rettangolo-rosa{
+    background-color: pink;
+    
 }
