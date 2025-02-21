@@ -84,8 +84,11 @@ li{
     margin: auto;
 }
 
+.tg{
+    height: 500px;
+}
 .rettangolo-piccolo{
-    height: 200px;
+    height: 195px;
     border: 1px dashed white;
 }
 .width60{
