@@ -51,7 +51,9 @@ li{
     text-align: right;
 }
 
-
+.flex-row{
+    flex-flow: 1;
+}
 
 .bg-giallo{
     background-color: yellow;
