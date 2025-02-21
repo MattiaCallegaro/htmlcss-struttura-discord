@@ -3,22 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-header{
-    
+/* header */
+header{ 
     padding: 20px 0px;
     background-color: aquamarine;
 }
-
-.container{
-    max-width: 900px;
-    margin: 0 auto;
+.header-iniziale{
+    width: 20%;
+    border: 1px dashed;
+    padding: 4px;   
 }
 
+.header-center{
+    width: 60%;
+    border: 1px dashed;
+    padding: 4px;
+}
+.header-link{
+    text-align:center;  
+}
+
+.header-destra{
+    text-align: right;
+}
+
+/* flex */
 .d-flex{
     display:flex;
 }
-
+.flex-row{
+    flex-flow: 1;
+}
 .flex-grow{
     flex-grow:1 ;
 }
@@ -32,34 +47,11 @@ li{
     margin: 0px 10px;
 }
 
-.header-iniziale{
-
-    width: 20%;
-    border: 1px dashed;
-    padding: 4px;
-    
-}
-
-.header-center{
-    width: 60%;
-    border: 1px dashed;
-    padding: 4px;
-}
-.header-link{
-    text-align:center;
-    
-}
-
-.header-destra{
-    text-align: right;
-}
-
-.flex-row{
-    flex-flow: 1;
-}
+/* bg colorati */
 
 .bg-giallo{
     background-color: yellow;
+    
 }
 
 .bg-blue-1{
@@ -74,11 +66,38 @@ li{
 
 }
 
+.bg-rosa{
+    background-color: rgb(255, 192, 203);    
+}
+
+.bg-grigio{
+    background-color: rgb(170, 165, 165);
+}
+
+.bg-grigio-scuro{
+    background-color: rgb(96, 96, 96);
+}
+.bg-blue{
+    background-color: rgb(43, 0, 255);    
+}
+
+.bg-azzurro{
+    background-color: aqua;
+}
+.bg-verde{
+    background-color: green;
+}
+/* contenitori */
+.container{
+    max-width: 900px;
+    margin: 0 auto;}
+
 .content{
     height: 200px;
     border: 3px dashed;
     margin: 15px 0;
 }
+
 .rettangolo-1{
     width: 60%;
     margin: auto;
@@ -114,32 +133,12 @@ li{
 }
 
 
-.bg-rosa{
-    background-color: rgb(255, 192, 203);    
-}
 
-.bg-grigio{
-    background-color: rgb(170, 165, 165);
-}
-
-.bg-grigio-scuro{
-    background-color: rgb(96, 96, 96);
-}
-.bg-blue{
-    background-color: rgb(43, 0, 255);    
-}
-
-.bg-azzurro{
-    background-color: aqua;
-}
-.bg-verde{
-    background-color: green;
-}
 .rettangolo-blue{
     background-color: rgb(13, 0, 255);
     
 }
-
+/*footer */
 .foot{
     height: 40px;
     margin-top: 5px;
