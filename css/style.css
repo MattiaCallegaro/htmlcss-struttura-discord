@@ -11,7 +11,7 @@ header{
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -135,7 +135,13 @@ li{
 }
 
 .foot{
-    height: 60px;
+    height: 40px;
     margin-top: 5px;
+    border: 1px dashed;
+}
+
+.foot2{
+    width: 50px;
+    margin: 10px;
     border: 1px dashed;
 }
