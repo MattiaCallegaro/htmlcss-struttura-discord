@@ -6,7 +6,7 @@
 
 header{
     
-    padding: 25px 0px;
+    padding: 20px 0px;
     background-color: aquamarine;
 }
 
@@ -16,8 +16,9 @@ header{
 }
 
 .d-flex{
-    display: flex;
+    display:flex;
 }
+
 
 ul{
     list-style-type: none;
@@ -28,34 +29,93 @@ li{
     margin: 0px 10px;
 }
 
-.header-logo{
+.header-iniziale{
+
     width: 20%;
-    padding: 2px;
+    border: 1px dashed;
+    padding: 4px;
+    
 }
 
+.header-center{
+    width: 60%;
+    border: 1px dashed;
+    padding: 4px;
+}
 .header-link{
     text-align:center;
+    
 }
 
-.header-login{
+.header-destra{
     text-align: right;
 }
 
-.bg-blue{
+
+
+.bg-giallo{
+    background-color: yellow;
+}
+
+.bg-blue-1{
     background-color: blue;
-    height: 200px;
+}
+
+.bg-bianco{
+    background-color: rgb(255, 255, 255);
+
 }
 
 .content{
     height: 200px;
     border: 3px dashed;
+    margin: 15px 0;
 }
 .rettangolo-1{
     width: 60%;
     margin: auto;
 }
 
-.rettangolo-rosa{
-    background-color: pink;
+.width60{
+    width: 60%;
+}
+
+
+.width40{
+    width: 40%;
     
 }
+
+.width30{
+    width: 30%;
+    
+}
+
+.width100{
+    width: 100%;
+}
+
+
+.bg-rosa{
+    background-color: rgb(255, 192, 203);    
+}
+
+.bg-grigio{
+    background-color: rgb(170, 165, 165);
+}
+
+.bg-grigio-scuro{
+    background-color: rgb(96, 96, 96);
+}
+.bg-blue{
+    background-color: rgb(43, 0, 255);    
+}
+
+.bg-verde{
+    background-color: green;
+}
+.rettangolo-blue{
+    background-color: rgb(13, 0, 255);
+    
+}
+
